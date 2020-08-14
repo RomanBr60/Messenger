@@ -1,4 +1,4 @@
-//EAAWZBou0W6zsBAN7Uo65auqw6MnaD5wvGsYylXVbGKa7kZAvhLNwlT1R75eB7gmPV3AK842KZAW4uZBkFlAQn6NLpasq3YZCpMxFcNF5a9GinBLHKlVt3R9NLnFqWiizUcVC4kxvkZCZBHAdwt3Ou9Nw779vSp5ydjWZBDfJmxZCwWnhZCiMrXA1ZCW
+
 /**
  * Copyright 2017-present, Facebook, Inc. All rights reserved.
  *
@@ -76,7 +76,7 @@ app.post('/webhook', (req, res) => {
 app.get('/webhook', (req, res) => {
   
   /** UPDATE YOUR VERIFY TOKEN **/
-  const VERIFY_TOKEN = "qwerty60";
+  const VERIFY_TOKEN = "<YOUR VERIFY TOKEN>";
   
   // Parse params from the webhook verification request
   let mode = req.query['hub.mode'];

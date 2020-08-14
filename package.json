@@ -2,10 +2,10 @@
   "name": "messenger",
   "version": "1.0.0",
   "description": "chat bot",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node app.js"
+  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RomanBr60/Messenger.git"
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/RomanBr60/Messenger/issues"
   },
-  "homepage": "https://github.com/RomanBr60/Messenger#readme"
+  "homepage": "https://github.com/RomanBr60/Messenger"
 }
